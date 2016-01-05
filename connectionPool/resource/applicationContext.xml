@@ -13,8 +13,6 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 	<!-- 扫描的包 -->
-	<!-- 为了测试app07先注释app04a和app05a -->
-	
     <context:component-scan base-package="jdbcStudy" />
     <!-- <context:component-scan base-package="app07a"/> -->
     <!-- 使用转换器 -->
